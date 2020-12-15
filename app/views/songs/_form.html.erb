@@ -1,7 +1,7 @@
 <%= form_for @song  do |f| %>
-  <%= author_id_field(@post) %>
+  <%= artist_id_field(@song) %>
   <br>
-  <label>Post title:</label><br>
+  <label>Song title:</label><br>
   <%= f.text_field :title %><br>
 
 
